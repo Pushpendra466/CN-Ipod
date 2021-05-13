@@ -74,24 +74,28 @@ else{
   {return(
     <div id='screen'>
     <p className='title'>{menuItems[0]}</p>
+    &emsp;&emsp;&emsp;&emsp;<i className="fas fa-headphones" style={{fontSize: '5rem'}}></i>
     </div>
   )}
   else if(this.state.active === 1)
   {return(
     <div id='screen'>
     <p className='title'>{menuItems[1]}</p>
+    &emsp;&emsp;&emsp;<i className="fas fa-music" style={{fontSize: '5rem'}}></i>
     </div>
   )}
   else if(this.state.active === 2)
   {return(
     <div id='screen'>
     <p className='title'>{menuItems[2]}</p>
+    &emsp;&emsp;&emsp;<i className="fas fa-dice" style={{fontSize: '5rem'}}></i>
     </div>
   )}
   else if(this.state.active === 3)
   {return(
     <div id='screen'>
     <p className='title'>{menuItems[3]}</p>
+    &emsp;&emsp;&emsp;<i className="fas fa-cogs" style={{fontSize: '5rem'}}></i>
     </div>
   )}
   else return;
@@ -99,5 +103,6 @@ else{
 
 }
 }
+
 
 export default Screen;

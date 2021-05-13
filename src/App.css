@@ -18,6 +18,7 @@
   padding-left: 10px;
   background-color: #fff;
   border-radius: 5px;
+  background-image: url("./assets/images/background.jpg");
 }
 
 #container #screen ul {
