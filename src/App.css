@@ -1,38 +1,140 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap");
+#container {
+  width: 220px;
+  margin: 10% auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 10px;
+  padding: 25px 10px 10px 10px;
+  border: 1px solid transparent;
+  border-radius: 38px;
+  background: linear-gradient(45deg, #E3E4E5, #FFFFFF);
+  -webkit-box-shadow: inset 5px -5px 15px 0px lightgray;
+          box-shadow: inset 5px -5px 15px 0px lightgray;
+}
+
+#container #screen {
+  height: 160px;
+  border: 2px solid gray;
+  padding-left: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#container #screen ul {
+  margin-top: -10px;
+  width: 120px;
+  list-style: none;
+  margin-left: -45px;
+  line-height: 1.5rem;
+}
+
+#container #screen ul li {
+  padding-left: 5px;
+}
+
+#container #options {
+  height: 150px;
+  border-radius: 0 0 38px 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(45deg, #E3E4E5, #FFFFFF);
+  padding: 10px 0;
+}
+
+#container #options #outer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 0.5px solid lightgray;
+  background-color: #fff;
+  color: #B9B9B9;
+}
+
+#container #options #outer .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 8px;
+}
+
+#container #options #outer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -15px;
+  padding-right: 80%;
+  font-size: 1.2rem;
+}
+
+#container #options #outer .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+  padding-left: 80%;
+  font-size: 1.2rem;
+}
+
+#container #options #outer .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 32px;
+  font-size: 1rem;
+}
+
+#container #options #inner {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 0.5px solid lightgray;
+  background-color: #B9B9B9;
+}
+
+.selected {
+  color: white;
+  background-color: #3783D8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 15px;
+}
+
+.selected::after {
+  content: '>';
+}
+
+.greet {
+  margin-top: -3px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.title {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */
